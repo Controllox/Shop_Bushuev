@@ -4,6 +4,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Shop_Bushuev.MainWindow"
-        Title="Shop_Bushuev">
-    Welcome to Avalonia!
+        Title="Shop_Bushuev"
+        Height="450"
+        Width="800"
+        MinHeight="450"
+        MinWidth="800">
+        <Grid>
+            <ScrollViewer
+                HorizontalScrollBarVisibility="Visible"
+                VerticalScrollBarVisibility="Hidden">
+                <StackPanel
+                    x:Name="parent"
+                    Orientation="Horizontal">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
 </Window>
