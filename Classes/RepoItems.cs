@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+namespace Shop_Bushuev.Classes;
 public class RepoItems
 {
     public static List<object> AllItems()

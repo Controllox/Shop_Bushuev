@@ -1,3 +1,4 @@
+namespace Shop_Bushuev.Classes;
 public class Sport : Shop
 {
     public string Size { get; set; }

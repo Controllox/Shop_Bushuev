@@ -1,3 +1,4 @@
+namespace Shop_Bushuev.Classes;
 public class Children : Shop
 {
     public int Age;

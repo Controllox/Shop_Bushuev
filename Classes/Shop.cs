@@ -1,3 +1,4 @@
+namespace Shop_Bushuev.Classes;
 public class Shop
 {
     public string Name { get; set; }

@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Shop_Bushuev.Elements.Item">
+    <Grid>
+        <Border
+            Margin="20"
+            Width="200"
+            CornerRadius="20"
+            Background="#FF5A5A5A">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image
+                    Margin="20"
+                    Width="160"
+                    Source="avares://Shop_Bushuev/Images/ic_item.png"/>
+                <TextBlock x:Name="tb_Name" Text="Наименование" Margin="10,10,0,0" Grid.Row="1" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                <TextBlock x:Name="tb_Price" Text="Цена:" Margin="10,41,10,0" Grid.Row="1" Foreground="White"/>
+                <TextBlock x:Name="tb_Characteristic" Text="Характеристика:" Margin="10,72,10,0" Grid.Row="1" Foreground="White"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
